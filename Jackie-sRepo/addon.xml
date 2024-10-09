@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="Jackie-sRepo" name="repository.Jackie-sRepo" version="1.0" provider-name="AgentMelinda">
+    <extension point="xbmc.addon.repository" name="Jacky Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Jackie-sRepo/repository.jacky/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/AgentMelinda/Jackie-sRepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/AgentMelinda/Jackie-sRepo/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Jackie-sRepo</summary>
+        <description>Jackito-San-Repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
